@@ -109,12 +109,12 @@
 }
 
 \renewcommand{\section}[1]{
-  \par\vspace{\parskip}
+  \par\vspace{-1mm}
   {%
     \LARGE\headingfont\color{headercolor}%
     \@sectioncolor #1%
   }
-  \par\vspace{\parskip}
+  \par\vspace{1mm}
 }
 
 \renewcommand{\subsection}[1]{
@@ -149,10 +149,10 @@
   \parbox[t]{14cm}{%
     \textbf{#2}%
     \hfill%
-    {\footnotesize\addfontfeature{Color=lightgray} #3}\\%
-	#4\null\hfill{\footnotesize\addfontfeature{Color=gray} #1}%
+    {\footnotesize\addfontfeature{Color=gray} #3}\\%
+	#4\null\hfill{\footnotesize\addfontfeature{Color=lightgray} #1}%
 	#5
-	\vspace{2mm}%
+	\vspace{2.5mm}%
   }\\}
 
 %%%%%%%%%%%%%%
@@ -165,9 +165,9 @@
 \newenvironment{aside}{%
   \let\oldsection\section
   \renewcommand{\section}[1]{
-    \par\vspace{\baselineskip}{\Large\headingfont\color{headercolor} ##1}
+    \par\vspace{\baselineskip}{\Large\headingfont\color{headercolor} #1\vspace{0.5mm}}
   }
-  \begin{textblock}{4.2}(1.3, 4.33)
+  \begin{textblock}{4.2}(1.3, 3.8)
   \begin{flushright}
   \obeycr
 }{%
