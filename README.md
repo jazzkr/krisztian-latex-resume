@@ -7,6 +7,7 @@ Use your choice of TeX distribution to compile PDF. I use MiKTeX on Windows. Com
   - Rewrite content for previous jobs to be 3 bullets or less
   - Minor formatting based on feedback
   - Make accompanying cover letter with same format
+
 ## Credits
 Originally written by Adrien Friggeri.
 Modified by Krisztian Kurucz.
