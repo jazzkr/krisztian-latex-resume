@@ -57,7 +57,6 @@
 \def\linkedin{{\FA \faLinkedinSquare}}
 \def\github{{\FA \faGithub}}
 \def\mobile{{\FA \faMobilePhone}}
-\def\phone{{\FA \faPhone}}
 \def\mail{{\FA \faEnvelopeO}}
 \def\website{{\FA \faGlobe}}
 
@@ -165,9 +164,9 @@
 \newenvironment{aside}{%
   \let\oldsection\section
   \renewcommand{\section}[1]{
-    \par\vspace{\baselineskip}{\Large\headingfont\color{headercolor} #1\vspace{0.5mm}}
+    \par\vspace{\baselineskip}{\Large\headingfont\color{headercolor} ##1\vspace{0.5mm}}
   }
-  \begin{textblock}{4.2}(1.3, 3.8)
+  \begin{textblock}{4.2}(1.3, 3.5)
   \begin{flushright}
   \obeycr
 }{%
