@@ -30,8 +30,8 @@
 
 \definecolor{black}{HTML}{000000}
 \definecolor{darkgray}{HTML}{333333}
-\definecolor{gray}{HTML}{4D4D4D}
-\definecolor{lightgray}{HTML}{999999}
+\definecolor{gray}{HTML}{333333}
+\definecolor{lightgray}{HTML}{333333}
 
 \colorlet{fillheader}{white}
 \colorlet{header}{darkgray}
@@ -108,12 +108,10 @@
 }
 
 \renewcommand{\section}[1]{
-  \par\vspace{-1mm}
   {%
     \LARGE\headingfont\color{headercolor}%
     \@sectioncolor #1%
   }
-  \par\vspace{1mm}
 }
 
 \renewcommand{\subsection}[1]{
