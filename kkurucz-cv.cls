@@ -27,7 +27,6 @@
 \RequirePackage{xcolor}
 
 \definecolor{white}{RGB}{255,255,255}
-
 \definecolor{black}{HTML}{000000}
 \definecolor{darkgray}{HTML}{333333}
 \definecolor{gray}{HTML}{333333}
@@ -148,11 +147,11 @@
     \hfill%
     {\footnotesize\addfontfeature{Color=gray} #3}\\%
 	#4\null\hfill{\footnotesize\addfontfeature{Color=lightgray} #1}%
-	#5
-	\vspace{2.5mm}%
+	\vspace{-1mm}\small{#5}
+	\vspace{1mm}%
   }\\}
 
-%%%%%%%%%%%%%%
+%%%%%%%%%%%%%
 % Side block %
 %%%%%%%%%%%%%%
 
